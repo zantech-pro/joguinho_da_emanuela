@@ -31,8 +31,11 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-#🖥️ Capturas de Tela
-(Adicione aqui imagens do jogo)
+# 🖥️ Capturas de Tela
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](Joguinho_da_Emanuela_v1/img/tela1.png)
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](Joguinho_da_Emanuela_v1/img/tela2.png)
+
 
 # Estrutura do Projeto
 ```mermaid
