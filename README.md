@@ -16,7 +16,7 @@ Você pode conferir o tutorial completo neste link: [Tutorial do Jogo Galaxy.](h
 # 🎲 Como Jogar
 ## 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/zantech-pro/joguinho_da_emanuela.git
 ```
 ## 2. Criar e Ativar um Ambiente Virtual (Opcional, mas recomendado)
 ```bash
