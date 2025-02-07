@@ -77,8 +77,11 @@ flowchart TD
     root --> dir1
 ```
 📌 Funcionalidades
+
 ✅ Interface interativa e amigável
+
 ✅ Mecânica divertida e educativa
+
 ✅ Totalmente personalizado
 
 📜 Licença
