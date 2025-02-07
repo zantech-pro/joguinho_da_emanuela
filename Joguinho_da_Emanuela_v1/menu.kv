@@ -1,0 +1,24 @@
+
+<MenuWidget>:
+    canvas.before:
+        Color:
+            rgba: 0, 0, 0, .8
+        Rectangle:
+            size: self.size
+
+    Label:
+        font_name: "fonts/LoveDaysLove-JRggE.ttf"
+        font_size: dp(60)
+        color: "#FF1493"
+        text: root.parent.menu_title
+        pos_hint: {'center_x': 0.5,'center_y': 0.6}
+    Button:
+        font_name: "fonts/MTF Epic.ttf"
+        color: "#FF69B4"
+        font_size: dp(35)
+        text: root.parent.menu_botao_title
+        pos_hint: {'center_x': 0.5,'center_y': 0.3}
+        size_hint: root.parent.botao_largura, .15
+        on_press: root.parent.on_menu_botao_apertado()
+        background_normal: ''
+        background_color: (193/255), (21/255), (133/255), .80

@@ -1,0 +1,34 @@
+#:import menu menu
+MainWidget:
+
+<MainWidget>:
+    canvas.before:
+        Rectangle:
+            size: self.size
+            source: "img/Imagem2.png"
+    menu_widget: menu_widget
+    perpectiva_ponto_x: self.width / 2
+    perpectiva_ponto_y: self.height * 0.75
+    MenuWidget:
+        id: menu_widget
+    Label:
+        font_name: "fonts/LoveDaysLove-JRggE.ttf"
+        font_size: dp(30)
+        color: "#FF1493"
+        text: root.potuacao_text
+        size_hint: .18, .18
+        pos_hint: {"x": 0, "top": 1} 
+    Label:
+        font_name: "fonts/LoveDaysLove-JRggE.ttf"
+        font_size: dp(30)
+        color: "#FF1493"
+        text: root.etapas_pontos_txt
+        size_hint: .18, .18
+        pos_hint: {"x": 0.77, "top": 1}
+    BoxLayout:
+        id: box_img
+        Image:
+            id: img_vitoria_gif
+            source: "img/imagem_anim_vitoria_gif.zip"
+            anim_delay: 0.15 # numero de fps
+            opacity: 0.0
