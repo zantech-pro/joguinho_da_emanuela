@@ -34,6 +34,45 @@ python main.py
 #🖥️ Capturas de Tela
 (Adicione aqui imagens do jogo)
 
+# Estrutura do Projeto
+```mermaid
+flowchart TD
+    subgraph root
+        dir1[Joguinho_da_Emanuela_v1/]
+        dir2[audio]
+        dir3[fonts]
+        dir4[img]
+        file1[**Arquivo principal**
+        main.py]
+        file2[**Trata I/O dos usuario no touch ou teclado**
+        acoes_usuarios.py]
+        file3[**Dependências do projeto**
+        requirements.txt ]
+        file4[**Documentação do projeto**
+        README.md]
+        file5[**Parametros para Buildozer convereter Mobile**
+        buildozer.spec]
+        file6[**Estruturação de layout na liguagem Kivy**
+        joguinhodaemanuela.kv]
+        file7[**Arquivo que trabalha em conjunto ao menu.kv, defini as opções para usuario**
+        menu.py]
+        file8[**Trata perpectiva 2D e perpectiva foco em profudidade**
+        menu.py]
+    end
+    
+    dir1 --> dir2
+    dir1 --> dir3
+    dir1 --> dir4
+    dir1 --> file1
+    dir1 --> file2
+    dir1 --> file3
+    dir1 --> file4
+    dir1 --> file5
+    dir1 --> file6
+    dir1 --> file7
+    dir1 --> file8
+    root --> dir1
+```
 📌 Funcionalidades
 ✅ Interface interativa e amigável
 ✅ Mecânica divertida e educativa
